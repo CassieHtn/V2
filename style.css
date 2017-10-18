@@ -1,0 +1,67 @@
+body {
+background: black;
+font-family: sans-serif; Avantgarde
+border: 0px;
+padding: 0px;
+color: #000000;
+color: rgb(45, 56, 76);
+
+}
+
+header {
+  border: 1px solid white;
+  text-align: center;
+  font-size: 25px;
+
+}
+ #navigation li {
+  display: inline;
+
+}
+
+IMG.displayed {
+
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+
+}
+
+p.tendances {
+    text-align: center;
+}
+
+p.lecteur {
+  text-align: center;
+}
+
+
+#navigation a  {
+   color: white;
+   border-right: 3px solid grey;
+   border-top: 3px solid grey;
+   padding-right: 100px;
+   padding-left: 100px;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   border-color: grey;
+   text-decoration: none;
+
+}
+
+#navigation a:hover{
+  color: orange;
+  text-decoration: underline;
+  }
+
+#navigation .moncompte {
+  border-right: 0;
+}
