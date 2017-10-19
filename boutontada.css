@@ -1,7 +1,6 @@
 
 .button {
   background: #eb1f48;
-  font-family: sans-serif; Avantgarde
   border-radius: 35px;
   color: white;
   cursor: pointer;
@@ -26,6 +25,7 @@
 }
 
 .fancy-button {
+  padding: 20px;
   margin: auto;
   position: relative;
 }
