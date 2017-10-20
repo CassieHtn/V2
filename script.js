@@ -19,6 +19,15 @@ $.getJSON(" https://api.airtable.com/v0/appppJm5kCAs0HjO8/musics?api_key=keynjL8
   );
 
   $(function(){
+		$(".fancy-button").click(function() {
+			window.setTimeout(function(){
+
+				window.location.href = "pagetoplist.html";
+
+			}, 1000);
+
+		});
+
     $(".fancy-button").mousedown(function(){
       $(this).bind('animationend webkitAnimationEnd MSAnimationEnd oAnimationEnd', function(){
           $(this).removeClass('active');

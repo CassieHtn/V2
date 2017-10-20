@@ -18,7 +18,6 @@ padding: 0px;
   border-right: 3px solid grey;
   border-top: 3px solid grey;
 }
-
 .myborder {
    color: white;
    padding-top: 15px;
@@ -39,14 +38,6 @@ padding: 0px;
   text-decoration: underline;
   }
 
-ul {
-    text-align: center;
-    list-style-type: none;
-  }
-
-
-
-
 
 header {
   border: 0px solid white;
@@ -60,70 +51,38 @@ IMG.displayed {
 
 }
 
-
-h1.tendances {
-  color: white;
-  font-size: 28px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
-
-
-}
-
-p.tendances {
-    text-align: center;
-}
-
-
-h1.découvertes {
-  color: white;
-  font-size: 28px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
-
-
-}
-
-h1.toplist {
-  color: white;
-  font-size: 28px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
-
-}
-
-
-p.lecteur {
-  text-align: center;
-}
-
-div.test {
+#banniere {
 text-align: center;
+margin: auto;
+width: 100%;
 }
 
-div.test2 {
+
+ h1{
 text-align: center;
-padding-top: 15px;
+font-style: normal;
+color: white
+ }
+
+
+h2{
+  text-align: center;
+  font-style: normal;
+  color: white
 }
-
-
 
 p {
 display: flex;
 justify-content: center;
 }
 
+
 footer {
   font-family: 'Open Sans', sans-serif;
   background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
 
 }
+
 .rs {
   display: flex;
   justify-content: center;

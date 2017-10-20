@@ -4,8 +4,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
      <link rel="stylesheet" type="text/css" href="style.css">
      <link rel="stylesheet" type="text/css" href="boutontada.css">
        <meta charset="utf-8" />
@@ -14,25 +15,32 @@
        <meta name="keywords" content="musique, musique en ligne"/>
        <meta name="robots" content="index/follow"/>
 
-    </head>
+  </head>
 
-     <body>
+  <body>
+    <header>
 
-      <header>
-
-        <br>
+      <a href="index.html"> <br>
         <img src="logo.png" height="100" width="120"> <br><br>
+      </a>
 
           <div class="menu container-fluid">
-          <div class="row">
-            <div class="col-sm-3 col-xs-12 myborder"><a class="#" href="#" title="aller à la section 1">Rechercher</a></div><!--
-          --><div class="col-sm-3 col-xs-12 myborder"><a href="#" title="aller à la section 2">Ma musique</a></div><!--
-          --><div class="col-sm-3 col-xs-12 myborder"><a href="#" title="aller à la section 3">D&eacute;couvrir</a></div><!--
-          --><div class="col-sm-3 col-xs-12 myborder"><a class="moncompte" href="#" title="aller à la section 4">Mon compte</a></div>
-          </div>
+            <div class="row">
+              <div class="col-sm-3 col-xs-12 myborder"><a class="#" href="#" title="aller à la section 1">
+                  <form action="" class="formulaire">
+                    <input class="champ" type="text" value="Search...)"/>
+                    <input class="bouton" type="button" value=" " />
+                      <i class="fa fa-search" aria-hidden="true">
+                      </i>
+                  </form>
+                </a>
+              </div>
+              <div class="col-sm-3 col-xs-12 myborder"><a href="pagemusique.html" title="aller à la section 2">Ma musique</a></div>
+              <div class="col-sm-3 col-xs-12 myborder"><a href="#" title="aller à la section 3">D&eacute;couvrir</a></div>
+              <div class="col-sm-3 col-xs-12 myborder"><a class="moncompte" href="pagecompte.html" title="aller à la section 4">Mon compte</a></div>
+            </div>
           </div>
 
-<!--  -->
         <br>
 
       </header>
@@ -41,49 +49,47 @@
       <h1 class="tendances">Tendances</h1>
       <br>  <br>
 
-<!--test-->
 <div class="test">
   <div class="row">
     <div class="col-md-2">
-      <img src="al1.png" height="200" width="180">
+      <img src="images/al1.png" height="200" width="180">
     </div>
     <div class="col-md-2">
-      <img src="al2.png" height="200" width="180">
+      <img src="images/al2.png" height="200" width="180">
     </div>
     <div class="col-md-2">
-      <img src="al3.png" height="200" width="180">
+      <img src="images/al3.png" height="200" width="180">
     </div>
     <div class="col-md-2">
-      <img src="al4.png" height="200" width="180">
+      <img src="images/al4.png" height="200" width="180">
     </div>
     <div class="col-md-2">
-      <img src="al5.png" height="200" width="180">
+      <img src="images/al5.png" height="200" width="180">
     </div>
     <div class="col-md-2">
-      <img src="al6.png" height="200" width="180">
+      <img src="images/al6.png" height="200" width="180">
     </div>
   </div>
 </div>
 
 
 
-      <br>  <br>  <br>  <br>
+      <br> <br> <br> <br>
+      <h1 class="découvertes">Découvertes</h1> <br>
 
-      <h1 class="découvertes">Découvertes</h1>
 
-       <br>
 
-<div class="test2">
-    <div class="row" id="musiques">
+      <div class="test2">
+        <div class="row" id="musiques">
+        </div>
       </div>
-    </div>
 
 
+      <h1 class="toplist">Top List</h1> <br>
 
 
-  <h1 class="toplist">Top List
-  </h1>
-
+  <p> <iframe src="https://open.spotify.com/embed?uri=spotify:user:spotifycharts:playlist:37i9dQZEVXbMDoHDwVN2tF" width="980" height="500" frameborder="0" allowtransparency="true"></iframe>
+      <br> <br>
 
   <div class="fancy-button">
     <div class="left-frills frills"></div>
@@ -91,28 +97,22 @@
     <div class="right-frills frills"></div>
   </div>
 
-
-
-
-
-
     </body>
 
     <footer>
 
       <div class="rs">
           <div class="myrs">
-            <img src="rs1.png" height="40" width="35">
+            <img src="images/rs1.png" height="38" width="35">
           </div>
 
             <div class="myrs">
-            <img src="rs2.png" height="40" width="35">
+            <img src="images/rs2.png" height="38" width="35">
           </div>
             <div class="myrs">
-            <img src="rs3.png" height="40" width="35">
+            <img src="images/rs3.png" height="38" width="35">
           </div>
       </div>
 
     </footer>
-
   </html>

@@ -18,7 +18,6 @@ padding: 0px;
   border-right: 3px solid grey;
   border-top: 3px solid grey;
 }
-
 .myborder {
    color: white;
    padding-top: 15px;
@@ -39,14 +38,34 @@ padding: 0px;
   text-decoration: underline;
   }
 
+
+
 ul {
     text-align: center;
     list-style-type: none;
   }
 
 
+#navigation .moncompte {
+  border-right: 0;
+}
+
+.myborder{
+  background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
+  border-right: 3px solid grey;
+  border-top: 3px solid grey;
+}
+
+}
+.myborder:nth-child(4){
+  border-right: none;
+}
 
 
+.myborder a:hover{
+  color: orange;
+  text-decoration: underline;
+  }
 
 header {
   border: 0px solid white;
@@ -55,68 +74,30 @@ header {
 
 }
 
+h1 {
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+}
 
 IMG.displayed {
 
 }
 
-
-h1.tendances {
-  color: white;
-  font-size: 28px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
-
-
-}
-
-p.tendances {
-    text-align: center;
-}
-
-
-h1.découvertes {
-  color: white;
-  font-size: 28px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
-
-
-}
-
-h1.toplist {
-  color: white;
-  font-size: 28px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
-
-}
-
-
-p.lecteur {
-  text-align: center;
-}
-
-div.test {
+#bouton {
 text-align: center;
+vertical-align: middle;
+text-decoration: none;
+
 }
 
-div.test2 {
+div {
+font-size: 50px;
+}
+
+#banniere {
 text-align: center;
-padding-top: 15px;
-}
-
-
-
-p {
-display: flex;
-justify-content: center;
+margin: auto;
+width: 100%;
 }
 
 footer {
@@ -124,6 +105,7 @@ footer {
   background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
 
 }
+
 .rs {
   display: flex;
   justify-content: center;
