@@ -7,11 +7,13 @@ padding: 0px;
 
 }
 
-
+/*petite loupe mais on a pas réussi à l'afficher*/
 #searchbar{position:relative; width:1040px; height:auto;}
 .formulaire               {display:inline-block;}
 .formulaire .champ       {width:170px; height:35px;background-color: orange;}
 .formulaire .bouton       { width: 35px;height: 35px;padding: 0;}
+
+/*CSS du menu */
 
 .myborder{
   background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
@@ -25,7 +27,7 @@ padding: 0px;
    padding-bottom: 20px;
    text-decoration: none;
 }
-.myborder:nth-child(4){
+.myborder:nth-child(4){  /* 4 pour le 4eme élément de la liste */
   border-right: none;
 }
 .myborder a {
@@ -119,11 +121,18 @@ display: flex;
 justify-content: center;
 }
 
+
+
+
+
+/* footer */
+
 footer {
   font-family: 'Open Sans', sans-serif;
   background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
 
 }
+
 .rs {
   display: flex;
   justify-content: center;
@@ -137,3 +146,5 @@ footer {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+/* footer */

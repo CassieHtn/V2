@@ -7,52 +7,87 @@ padding: 0px;
 
 }
 
+/* menu */
 
-#searchbar{position:relative; width:1040px; height:auto;}
-.formulaire               {display:inline-block;}
-.formulaire .champ       {width:170px; height:35px;background-color: orange;}
-.formulaire .bouton       { width: 35px;height: 35px;padding: 0;}
+#searchbar{
+  position:relative;
+  width:1040px;
+  height:auto;
+
+  }
+
+
+.formulaire {
+  display:inline-block;
+
+  }
+
+.formulaire .champ {
+  width:170px;
+  height:35px;
+  background-color: orange;
+
+  }
+
+.formulaire .bouton  {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+
+}
 
 .myborder{
   background: linear-gradient(to bottom, #45484d 22%,#000000 100%);
   border-right: 3px solid grey;
   border-top: 3px solid grey;
-}
+
+  }
+
+
 .myborder {
    color: white;
    padding-top: 15px;
    padding-bottom: 20px;
    text-decoration: none;
-}
+   }
+
 .myborder:nth-child(4){
   border-right: none;
+
 }
+
 .myborder a {
    color: white;
    text-decoration: none;
-}
+   }
 
 
 .myborder a:hover{
   color: orange;
   text-decoration: underline;
+
   }
 
 
 #navigation a:hover{
   color: orange;
   text-decoration: underline;
+
   }
 
 ul {
     text-align: center;
     list-style-type: none;
+
   }
 
 
 #navigation .moncompte {
   border-right: 0;
+
 }
+
+/* menu */
 
 header {
   border: 0px solid white;
@@ -70,26 +105,30 @@ IMG.displayed {
 text-align: center;
 margin: auto;
 width: 100%;
+
 }
 
- h1{
+h1{
 text-align: center;
 font-style: normal;
-color: white
- }
+color: white;
 
+ }
 
 h2{
   text-align: center;
   font-style: normal;
   color: white;
-  font-family: sans-serif; Avantgarde;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 35px;
+
 }
 
 .playlist{
 display: flex;
 justify-content: center;
+
 }
 
 .blabla {
@@ -100,17 +139,21 @@ justify-content: center;
   font-size: 20px;
   padding-left: 130px;
   padding-right: 130px;
+
 }
+
  h1 {
 
    text-align: center;
-   color: white
+   color: white;
+
  }
 
  h2{
    text-align: center;
    color: white;
    font-style: oblique;
+
  }
 
  h3 {
@@ -118,12 +161,17 @@ justify-content: center;
    font-style: normal;
    margin: 0 auto;
    text-align: justify;
+
  }
 
 p {
 display: flex;
 justify-content: center;
+
 }
+
+
+/* footer */
 
 footer {
   font-family: 'Open Sans', sans-serif;
@@ -144,3 +192,5 @@ footer {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+/* footer */
